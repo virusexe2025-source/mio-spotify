@@ -1,13 +1,14 @@
 {
   "name": "mio-spotify",
   "version": "1.0.0",
+  "description": "Spotify Cloud Personal",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
     "express": "^4.19.2",
-    "yt-stream": "^1.1.0",
-    "@supabase/supabase-js": "^2.43.4"
+    "@supabase/supabase-js": "^2.43.4",
+    "axios": "^1.7.2"
   }
 }
